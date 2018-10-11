@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".type">
+    <LinearLayout android:id="@+id/layout3"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="QUIZ TYPE"
+        android:textSize="50dp"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="70dp"
+        tools:text="QUIZ TYPE" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Computer"
+        android:textSize="30sp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ENGLISH"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:text="GK"
+        android:textSize="30sp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:text="Sports"
+        android:textSize="30sp"
+        tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+</RelativeLayout>
